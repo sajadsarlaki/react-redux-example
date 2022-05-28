@@ -9,3 +9,10 @@ export const decrement = () => {
         type: 'DECREMENT',
     }
 }
+
+export const addNumber = (number) => {
+    return {
+        type: 'ADD_NUMBER',
+        payload: number
+    }
+}
